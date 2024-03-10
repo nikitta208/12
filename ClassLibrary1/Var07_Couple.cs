@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,10 +9,13 @@ namespace ClassLibrary1
     
     internal class Var07_Couple
     {
-        
+
         internal static Var07_Couple ToString(string value)
         {
-            private DateTime startTime;
+            throw new NotImplementedException();
+        }
+
+        private DateTime startTime;
         private DateTime endTime;
         private DateTime breakStartTime;
         private DateTime breakEndTime;
