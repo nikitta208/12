@@ -40,5 +40,9 @@ namespace ClassLibrary1
             get { return post.ToString(); }
             set { post = Var10_Post.ToString(value); }
         }
+        internal static Var09_Employees ToString(string value)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
