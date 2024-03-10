@@ -30,7 +30,7 @@ namespace ClassLibrary1
             get { return division.ToString(); }
             set { division = Var11_Discipline.ToString(value); }
         }
-        private Var10(string Name, string salary,  string division)
+        private Var10_Post(string Name, string salary,  string division)
         {            
             name = Name;
             Salary = salary;
