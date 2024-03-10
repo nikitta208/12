@@ -6,11 +6,39 @@ using System.Threading.Tasks;
 
 namespace ClassLibrary1
 {
-    internal class Var09_Employees
+    public class Var09_Employees
     {
-        internal static Var09_Employees ToString(string value)
+        private string name = "";
+        private string surname = "";
+        private string patronymic = "";
+        private Var10_Post post;
+
+        public Var09_Employees(string name, string surname, string patronymic, string post)
         {
-            throw new NotImplementedException();
+            Name = name;
+            Surname = surname;
+            Patronymic = patronymic;
+            Post = post;
+        }
+        public string Name
+        {
+            get { return name; }
+            set { name = value; }
+        }
+        public string Surname
+        {
+            get { return surname; }
+            set { surname = value; }
+        }
+        public string Patronymic
+        {
+            get { return patronymic; }
+            set { patronymic = value; }
+        }
+        public string Post
+        {
+            get { return post.ToString(); }
+            set { post = Var10_Post.ToString(value); }
         }
     }
 }
