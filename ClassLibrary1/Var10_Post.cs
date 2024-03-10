@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ClassLibrary1
 {
-    public class Var10
+    public class Var10_Post
     {
         private string Name;
         
