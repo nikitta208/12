@@ -1,6 +1,6 @@
 ﻿using System;
 
-public class Specialty
+public class Var06_Specialty
 {
     private string name;
     private string sokrash;
