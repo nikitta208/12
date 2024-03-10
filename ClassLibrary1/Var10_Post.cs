@@ -36,5 +36,9 @@ namespace ClassLibrary1
             Salary = salary;
             Division = division;
         }
+        internal static Var10_Post ToString(string value)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
