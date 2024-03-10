@@ -12,28 +12,29 @@ namespace ClassLibrary1
         
         public string name
         {
-            get { return Class; }
-            set => Class = value;
+            get { return Name; }
+            set => Name = value;
         }
         private string Salary;
 
         public string salary
         {
-            get { return Class; }
-            set => Class = value;
+            get { return Salary; }
+            set => Salary = value;
         }
-        private Var11Division;
+
+        private Var11_Discipline division;
         
         public string Division
         {
-            get { return Class; }
-            set => Class = value;
+            get { return division.ToString(); }
+            set { division = Var11_Discipline.ToString(value); }
         }
-        private Var10(string Name, string salary,  string Var11division)
+        private Var10(string Name, string salary,  string division)
         {            
             name = Name;
-            salary = Salary;
-            Division = Var11division;
+            Salary = salary;
+            Division = division;
         }
     }
 }
