@@ -20,10 +20,6 @@ namespace ClassLibrary1
             this.employee = employee; 
 
         }
-        internal static Var10_Post ToString(string value)
-        {
-            throw new NotImplementedException();
-        }
     }
     
 }
