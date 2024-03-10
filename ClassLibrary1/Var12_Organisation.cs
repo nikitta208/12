@@ -12,7 +12,7 @@ namespace ClassLibrary1
         private string legalAdress;
         private string actualAdress;
         private Employee employee;
-        public Organisation(string name, string legalAdress, string actualAdress, string refSupervisor)
+        public Var12_Organisation(string name, string legalAdress, string actualAdress, string refSupervisor)
         {
             this.name = name;
             this.legalAdress = legalAdress;
