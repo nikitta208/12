@@ -1,26 +1,5 @@
 using System;
 
-public class Employee
-{
-    public string Name { get; set; }
-    public DateTime StartDate { get; set; }
-
-    public Employee(string name, DateTime startDate)
-    {
-        Name = name;
-        StartDate = startDate;
-    }
-}
-
-public class Organization
-{
-    public string Name { get; set; }
-
-    public Organization(string name)
-    {
-        Name = name;
-    }
-}
 
 public class Department
 {
