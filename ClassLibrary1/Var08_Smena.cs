@@ -20,11 +20,6 @@ namespace ClassLibrary1
             return $"Название смены: {name}";
         }
 
-        // Пример использования класса Shift
-        static void Main()
-        {
-            Var08_Smena shift1 = new Var08_Smena("Утренняя смена");
-        }
     }
 
 }
