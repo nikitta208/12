@@ -1,6 +1,6 @@
 using System;
 
-class Discipline
+namespace ClassLibrary1
 {
     private string name;
     private string abbreviation;
@@ -19,14 +19,3 @@ class Discipline
     }
 }
 
-class Program
-{
-    static void Main()
-    {
-        // Создание объекта класса Дисциплина
-        Discipline discipline = new Discipline("Математика", "Мат");
-
-        // Вывод информации о дисциплине
-        discipline.GetDisciplineInfo();
-    }
-}
