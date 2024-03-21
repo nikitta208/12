@@ -1,17 +1,18 @@
 using System;
 
-
-public class Department
+namespace ClassLibrary1
 {
-    private string _name;
-    private Employee _manager;
-    private Organization _organization;
-
-    public Department(string name, Employee manager, Organization organization)
+    class Department
     {
-        _name = name;
-        _manager = manager;
-        _organization = organization;
+        private string _name;
+        private Employee _manager;
+        private Var12_Organisation _organization;
+
+        public Department(string name, Employee manager, Var12_Organisation organization)
+        {
+            _name = name;
+            _manager = manager;
+            _organization = organization;
+        }
     }
 }
-
