@@ -11,13 +11,15 @@ namespace ClassLibrary1
         private string name;
         private string legalAdress;
         private string actualAdress;
-        public Organisation(string name, string legalAdress, string actualAdress)
+        private Employee employee;
+        public Var12_Organisation(string name, string legalAdress, string actualAdress, string refSupervisor)
         {
             this.name = name;
             this.legalAdress = legalAdress;
             this.actualAdress = actualAdress;
+            this.employee = employee; 
 
         }
     }
-
+    
 }
