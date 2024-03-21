@@ -24,7 +24,6 @@ namespace ClassLibrary1
         static void Main()
         {
             Var08_Smena shift1 = new Var08_Smena("Утренняя смена");
-            Console.WriteLine(shift1.ToString());
         }
     }
 
