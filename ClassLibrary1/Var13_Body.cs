@@ -1,4 +1,4 @@
-namespace Body;
+namespace ClassLibrary1
 {
     public class typeOfOccupation
     {
