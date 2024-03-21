@@ -2,20 +2,24 @@ using System;
 
 namespace ClassLibrary1
 {
-    private string name;
-    private string abbreviation;
-
-    public Discipline(string name, string abbreviation)
+    class Var03_Discipline
     {
-        this.name = name;
-        this.abbreviation = abbreviation;
-    }
+        private string name;
+        private string abbreviation;
 
-    // Метод для получения информации о дисциплине
-    public void GetDisciplineInfo()
-    {
-        Console.WriteLine("Дисциплина: " + name);
-        Console.WriteLine("Сокращение: " + abbreviation);
+        public Var03_Discipline(string name, string abbreviation)
+        {
+            this.name = name;
+            this.abbreviation = abbreviation;
+        }
+
+        // Метод для получения информации о дисциплине
+        public void GetDisciplineInfo()
+        {
+            Console.WriteLine("Дисциплина: " + name);
+            Console.WriteLine("Сокращение: " + abbreviation);
+        }
     }
 }
+
 
