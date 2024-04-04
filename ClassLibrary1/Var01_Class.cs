@@ -12,7 +12,6 @@ namespace ClassLibrary1
         }
 
         private DateTime dateTime;
-        private Var11_Discipline discipline;
         private Var09_Employees employees;
         private Var02_TheAudience theAudience;
         private Var04_Group group;
@@ -23,11 +22,6 @@ namespace ClassLibrary1
         {
             get { return dateTime.ToString(); }
             set { dateTime = DateTime.Parse(value); }
-        }
-        public string Discipline
-        {
-            get { return discipline.ToString(); }
-            set { discipline = Var11_Discipline.ToString(value); }
         }
         public string Employees
         {
@@ -58,7 +52,6 @@ namespace ClassLibrary1
         public Var01_Class(string dateTime, string discipline, string employees, string theAudience, string group, string couple, string classes)
         {
             datetime = dateTime;
-            Discipline = discipline;
             Employees = employees;
             TheAudience = theAudience;
             Group = group;
