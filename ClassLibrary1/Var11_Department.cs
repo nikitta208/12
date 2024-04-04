@@ -12,7 +12,4 @@ namespace ClassLibrary1
         {
             _name = name;
             _manager = manager;
-            _organization = organization;
-        }
-    }
-}
+            _organization = organizat
