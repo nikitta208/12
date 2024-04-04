@@ -1,5 +1,3 @@
-using System;
-
 namespace ClassLibrary1
 {
     class Var03_Discipline
@@ -13,13 +11,11 @@ namespace ClassLibrary1
             this.abbreviation = abbreviation;
         }
 
-        // Метод для получения информации о дисциплине
-        public void GetDisciplineInfo()
+        public string GetDisciplineInfo()
         {
-            Console.WriteLine("Дисциплина: " + name);
-            Console.WriteLine("Сокращение: " + abbreviation);
+            string disciplineInfo = "Дисциплина: " + name + "\n" + "Сокращение: " + abbreviation;
+            return disciplineInfo;
         }
     }
 }
-
 
