@@ -12,5 +12,18 @@ namespace ClassLibrary1
         {
             throw new NotImplementedException();
         }
+          
+        private string name;
+
+        public Var14_Classes(string name)
+        {
+            this.name = name;
+        }
+        public override string ToString()
+        {
+            return $"Вид занятия:{name}";
+        }
     }
 }
+    
+
