@@ -6,11 +6,19 @@ using System.Threading.Tasks;
 
 namespace ClassLibrary1
 {
-    internal class Var14_Classes
+     internal class Var14_Classes
     {
-        internal static Var14_Classes ToString(string value)
+        private string name;
+
+        public Var14_Classes(string name)
         {
-            throw new NotImplementedException();
+            this.name = name;
+        }
+        public override string ToString()
+        {
+            return $"Вид занятия:{name}";
         }
     }
 }
+
+
