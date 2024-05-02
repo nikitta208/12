@@ -11,7 +11,6 @@ namespace ConsoleApp1
     {
         public static void Print(Var01_Class Class)
         {
-            
         }
     }
 }
