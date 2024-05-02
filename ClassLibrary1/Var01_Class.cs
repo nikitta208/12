@@ -58,7 +58,5 @@ namespace ClassLibrary1
             Couple = couple;
             Classes = classes;
         }
-
-
     }
 }
