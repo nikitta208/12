@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace ClassLibrary1
 {
     internal class Var12_Organisation
-      {
+    {
         private string name;
         private string legalAdress;
         private string actualAdress;
@@ -18,8 +18,6 @@ namespace ClassLibrary1
             this.legalAdress = legalAdress;
             this.actualAdress = actualAdress;
             this.employee = employee; 
-
         }
-    }
-    
+    } 
 }
