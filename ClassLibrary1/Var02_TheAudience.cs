@@ -26,7 +26,6 @@ namespace ClassLibrary1
             this.window = window;
             this.equipment = equipment;
         }
-
     }
 }
 
