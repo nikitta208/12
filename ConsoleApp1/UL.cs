@@ -10,8 +10,7 @@ namespace ConsoleApp1
     static class UL
     {
         public static void Print(Var01_Class Class)
-        {
-            
+        {  
         }
     }
 }
